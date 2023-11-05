@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input{
+            width: 150px;
+            padding: 12px 15px 12px 50px;
+            margin: 8px 0px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            border-radius: 15px;
+            background-image: url('searchıcon.png');
+            background-repeat: no-repeat;
+            background-position: 10px 5px;
+            background-size:30px 30px;
+            color: black;
+        }
+        input[type=text]:focus{
+            background-color: red;
+            border: 1px solid black;
+            color: white;
+            width: 100%;
+        }
+        textarea{
+            width: 100%;
+            height: 160px;
+            border: 1px solid red;
+            font-size: 20px;
+            resize: none;
+        }
+        select{
+            width: 100%;
+            padding: 15px 20px;
+            border: 1px solid red;
+            border-radius: 25px;
+            background-color: bisque;
+        }
+        input[type=button],[type=reset],[type=submit]{
+            padding: 16px 25px;
+            background-color: orangered;
+            border: none;
+            color: white;
+            margin: 5px 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="alp"></label>Adınızı Giriniz:
+        <input type="text" name="alp" placeholder="Search . . .">
+        <label for="alp"></label>soyadınızı giriniz:
+        <input type="text" name="kocaoglu" placeholder="Search . . ."   >
+        <textarea>Alp KOCAOGLU ...... Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti a laboriosam autem explicabo labore voluptatibus quaerat dicta maxime esse nisi voluptas dignissimos cum neque ad, nam ut assumenda vero deserunt cumque atque. Maxime magnam eius ipsum consectetur similique, blanditiis, incidunt debitis dolore velit aut assumenda repellendus reprehenderit in illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti a laboriosam autem explicabo labore voluptatibus quaerat dicta maxime esse nisi voluptas dignissimos cum neque ad, nam ut assumenda vero deserunt cumque atque. Maxime magnam eius ipsum consectetur similique, blanditiis, incidunt debitis dolore velit aut assumenda repellendus reprehenderit in illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti a laboriosam autem explicabo labore voluptatibus quaerat dicta maxime esse nisi voluptas dignissimos cum neque ad, nam ut assumenda vero deserunt cumque atque. Maxime magnam eius ipsum consectetur similique, blanditiis, incidunt debitis dolore velit aut assumenda repellendus reprehenderit in illo.Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente corrupti a laboriosam autem explicabo labore voluptatibus quaerat dicta maxime esse nisi voluptas dignissimos cum neque ad, nam ut assumenda vero deserunt cumque atque. Maxime magnam eius ipsum consectetur similique, blanditiis, incidunt debitis dolore velit aut assumenda repellendus reprehenderit in illo.</textarea>
+        <select name="ülke" >
+            <option value="tr">türkiye</option>
+            <option value="en">ingiltere</option>
+            <option value="eu">almanya</option>
+        </select>
+
+        <input type="button" value="button">
+        <input type="reset" value="button">
+        <input type="submit" value="button">
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text],select{
+            width: 100%;
+            padding: 10px 20px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: 1px solid red;
+            border-radius: 5px;
+
+        }
+        input[type=text]:focus{
+            background-color: aquamarine;
+        }
+        input[type=text]:hover{
+            background-color: red;
+        }
+        div{
+            padding: 20px;
+            background-color: rgb(231, 231, 231);
+            border-radius: 5px;
+        }
+        input[type=submit]{
+            width: 100%;
+            padding: 13px 25px;
+            margin-top: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <form>
+            <label for="alp"><b>First Name:</b></label>
+            <input type="text" name="alp" placeholder="Your name">
+            <label for="alp"><b>Last Name:</b></label>
+            <input type="text" name="alp" placeholder="Your last name">
+            <label for="türkiye"><b>Country:</b></label>
+            <select name="ülke" >
+                <option value="tr">Türkiye</option>
+                <option value="en">İngiltere</option>
+                <option value="eu">Almanya</option>
+            </select>
+            <input type="submit" value="Kaydet">
+        </form>
+    </div>
+</body>
+</html>
